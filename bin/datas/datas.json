@@ -1,0 +1,32 @@
+{
+    "interface": {
+        "title":"stephan twarog book - design | graphic | motion | animation | web | game",
+        "name":"stephan twarog",
+        "mail":"stephan.twarog@gmail.com",
+        "phone":"0664849266",
+        "langButton":"fr/en",
+        "menu":{
+            "bt1":"home",
+            "bt2":"#latest",
+            "bt3":"#graphic",
+            "bt4":"#motion",
+            "bt5":"#animation",
+            "bt6":"#web",
+            "bt7":"#game"
+        },
+        "menuLinks":{
+            "bt1":"",
+            "bt2":"latest",
+            "bt3":"graphic",
+            "bt4":"motion",
+            "bt5":"animation",
+            "bt6":"web",
+            "bt7":"game"
+        }    
+    },
+    "resumeContent": {
+        "content1":"<div class=\"CVsub\">Quick Resume</div><div>Former Art Director / co-founder of MMOG Chapatiz.com<br/>Motion graphics, video and compositing<br/>Tactile application development<br/>Game design for mobile game<br/>Short film 2D animation</div>",
+        "content2":"<div class=\"CVsub\">Main Skills</div><div>Making cool moving stuffs on screens<br/>Adobe softwares for creation and design<br/>Photoshop, illustrator, Animate, After Effects, Premiere<br/>Web languages such as JS node.JS CSS HTML ActionScript<br/></div>",
+        "content3":"<div class=\"CVsub\">Aloha !</div>Good stories, fictions, tales and games<br/>Curious minds, discoveries, science<br/>Opensource, Fablabs and gardens<br/>Practicing Muay Thai, Tai Chi, Basketball<br/>Experimental Fusion Cooking Fever</div>"
+    }
+}
