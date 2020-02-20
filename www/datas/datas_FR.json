@@ -1,0 +1,16 @@
+{
+    "interface":{
+        "title":"stephan twarog book - design | graphic | motion | animation | web | game",
+        "name":"stephan twarog",
+        "mail":"stephan.twarog@gmail.com",
+        "phone":"0664849266",
+        "langButton":"fr/en",
+        "menu":{
+            "bt1":"graphic",
+            "bt2":"motion",
+            "bt3":"animation",
+            "bt4":"web",
+            "bt5":"game"
+        }
+    }
+}

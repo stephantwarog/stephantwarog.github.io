@@ -1,0 +1,297 @@
+html {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Abel';
+  src: url('../bin/fonts/Abel-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #2bd4f6;
+	margin: 0;
+	padding: 0;
+	background-image: url("../bin/img/small/bg.jpg");
+	background-repeat: repeat-y;
+	background-size:100%;
+}
+
+.header {
+	background-color: #FF00CC;
+	font-family: 'Abel', sans-serif;
+	font-size:20px;
+	height:75px;
+	font-style: normal;
+	color: #ffffff;
+	text-align:center;
+	/* padding: 20px; */
+	margin:auto;
+}
+
+.titleContainer{
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	/* background-color: #777; */
+	font-family: 'Abel', sans-serif;
+	font-size:20px;
+	height:75px;
+	width:90%;
+	font-style: normal;
+	color: #ffffff;
+	text-align:center;
+	/* padding: 20px; */
+}
+
+.title{
+	position:relative;
+	text-align: right;
+	white-space: nowrap;
+	width:240px;
+	height:40px;
+	line-height:40px;
+	/* background-color: #ccc; */
+}
+
+.line{
+	border-left:1px solid #fff;
+	height:40px;
+	margin-left:20px;
+}
+
+.menuButton{
+	position:fixed;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	/* align-self: flex-end; */
+	right:0px;
+	top:2px;
+	/* background-color: #aaa; */
+
+	border-left:1px solid #fff;
+	width:60px;
+	height:70px;	
+}
+
+.menuicon{
+	/* margin-left:50%; */
+	margin-top:5px;
+	margin-bottom:5px;
+	border-top:1px solid #fff;
+	height:0px;
+	width:25px;
+	position:relative;
+}
+
+.homeContainer{
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	margin-left:20px;
+	text-align:left;
+	width:240px;
+	/* background-color: #666; */
+}
+
+.homeContact{
+	font-family: 'Abel', sans-serif;
+	color: #fff;	
+	font-size:15px;
+	font-style: normal;	
+}
+
+
+.backgroundContent{
+	margin-top:50px;
+	margin-bottom:50px;
+	width:100%;
+	height:440px;
+	background-image: url("../bin/img/bg_alpha.png");
+	background-repeat: repeat-xy;
+	background-size:100% 100%;
+}
+
+.homeContent{
+	position:fixed;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: top;	
+	margin-top:50px;
+	margin-bottom:50px;
+	width:90%;
+	/* background-color: #555; */
+}
+
+.CVcontent{
+	position:relative;
+	/* margin:auto; */
+	width:400px;
+	margin-left:20px;
+	/* padding-left:20px; */
+	/* background-color: #aaa; */
+}
+
+.CVportraitContainer{
+	/* margin:auto; */
+	/* float: left; */
+	/* position: relative; */
+	/* left:30px; */
+	/* top:0; */
+	width:400px;
+	height:350px;
+	/* background-color: #444; */
+	/* margin-right:20px; */
+
+}
+
+.CVportrait{
+	margin-right:0;
+	margin-left:auto;
+	/* float: left; */
+	/* position: relative; */
+	/* right:0; */
+	/* top:0; */
+	width:400px;
+	height:350px;
+	background-image: url("../bin/img/portrait_spritesheet.png");
+	background-repeat: no-repeat;
+	background-position: 0px 30px;
+	background-size: 3200px 280px;
+	animation: portraitAnimation 0.6s steps(8) infinite;
+	/* animation-delay: 0.5s; */
+	/* background-color: #aaa; */
+	/* margin-right:20px; */
+}
+
+@keyframes portraitAnimation{
+	from {background-position-x:0px}
+	to {background-position-x:-3200px}
+}
+
+
+.CVtitle{
+	font-family: 'Abel', sans-serif;
+	color: #111;	
+	font-size:18px;
+	font-style: normal;
+	text-transform: uppercase;
+	/* background-color: #ccc; */
+}
+
+.iconContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-top:20px;
+	/* background-color: #777; */
+	height:32px;
+	width:300px;
+}
+
+.icon{
+	background-repeat: no-repeat;
+	margin-left:15px;
+	margin-right:15px;
+	width:32px;
+	height:32px;
+}
+
+.icon1{
+	background-image: url("../bin/img/icon1.png");
+}
+
+.icon1on{
+	background-image: url("../bin/img/icon1on.png");
+}
+
+
+.icon2{
+	background-image: url("../bin/img/icon2.png");
+}
+
+.icon3{
+	background-image: url("../bin/img/icon3.png");
+}
+
+.iconOff{
+	opacity: 0.5;
+}
+
+
+.CVspace{
+	margin-bottom: 20px;
+}
+
+.CVsub{
+	text-transform: uppercase;
+}
+
+.CVresume{
+	font-family: 'Abel', sans-serif;
+	color: #111;	
+	font-size:15px;
+	font-style: normal;
+	/* background-color: #ccc; */
+	height: 200px;
+}
+
+
+
+.PortofolioButton{
+	/* display:block; */
+	position: relative;
+	bottom:0px;
+	font-family: 'Abel', sans-serif;
+	color: #fff;	
+	font-size:20px;
+	font-style: normal;
+	width:300px;
+	text-align:center;
+	text-transform:uppercase;
+	background-color:#FF00CC;
+	/* left:20px; */
+	padding:15px;
+	margin-top:20px;
+	/* margin-bottom:0; */
+
+	/* margin-left:20px; */
+}
+
+
+/* For devices 768px and larger: */
+@media only screen and (min-width: 800px) {
+	body { 
+		background-image: url('../bin/img/middle/bg.jpg'); 
+	}
+	
+	/* .homeContact{
+		margin-top: 50px;
+		margin-left:auto;
+		margin-right:auto;
+
+		background-color: #FFFFFF;
+		padding: 20px;
+		padding-left: 10%;
+		padding-right: 10%;		
+		width:350px;
+		align-self:center;
+		align-content:center;
+		font-family: 'Abel', sans-serif;
+		color: #000000;
+		font-size:20px;
+		font-style: normal;	
+	}   */
+}
+
+@media only screen and (min-width: 1440px) {
+  body { 
+    background-image: url('../bin/img/big/bg.jpg'); 
+  }
+}
