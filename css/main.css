@@ -176,6 +176,15 @@ body {
 	/* background-color: #ccc; */
 }
 
+.CVsubtitle{
+	font-family: 'Abel', sans-serif;
+	color: #111;	
+	font-size:13px;
+	font-style: normal;
+	text-transform: uppercase;
+	/* background-color: #ccc; */
+}
+
 .icon{
 	background-repeat: no-repeat;
 	margin-left:15px;
@@ -232,29 +241,6 @@ body {
 }
 
 
-.PortofolioButton{
-	/* display:block; */
-	position: relative;
-	bottom:0px;
-	font-family: 'Abel', sans-serif;
-	color: #fff;	
-	font-size:20px;
-	font-style: normal;
-	width:300px;
-	text-align:center;
-	text-transform:uppercase;
-	background-color:#FF00CC;
-	/* left:20px; */
-	padding:15px;
-	margin-top:20px;
-	/* margin-bottom:0; */
-
-	/* margin-left:20px; */
-}
-
-
-
-
 
 /* For devices 600px and smaller: */
 @media only screen and (max-width: 800px) {
@@ -265,7 +251,7 @@ body {
 	.homeContent{
 		position:relative;
 		display:flex;
-		white-space: nowrap;
+		/* white-space: nowrap; */
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -311,12 +297,13 @@ body {
 	.CVcontent{
 		position:relative;
 		/* margin:auto; */
-		/* width:400px; */
+		width:100%;
 		/* margin-left:20px; */
 		/* padding-left:20px; */
 		/* background-color: #aaa; */
 		/* background-color: #aaa; */
 		text-align: center;
+		
 		margin: auto;
 	}
 
@@ -342,6 +329,28 @@ body {
 		to {background-position-x:-1600px}
 	}
 	
+	.PortofolioButton{
+		/* display:block; */
+		position: relative;
+		align-self: center;
+		bottom:0px;
+		font-family: 'Abel', sans-serif;
+		color: #fff;	
+		font-size:20px;
+		font-style: normal;
+		text-align:center;
+		text-transform:uppercase;
+		background-color:#FF00CC;
+		/* left:20px; */
+		padding:15px;
+		margin:auto;
+		margin-top:20px;
+		/* margin-bottom:0; */
+		width:70%;
+	
+		/* margin-left:20px; */
+	}
+
 }
 
 /* For devices 600px and bigger: */
@@ -354,7 +363,7 @@ body {
 		top:0px;
 		position:relative;
 		display:flex;
-		white-space: nowrap;
+		/* white-space: nowrap; */
 		flex-direction: row;
 		justify-content: center;
 		align-items: top;
@@ -418,6 +427,26 @@ body {
 		height:32px;
 		width:300px;
 	}
+
+	.PortofolioButton{
+		/* display:block; */
+		position: relative;
+		bottom:0px;
+		font-family: 'Abel', sans-serif;
+		color: #fff;	
+		font-size:20px;
+		font-style: normal;
+		width:300px;
+		text-align:center;
+		text-transform:uppercase;
+		background-color:#FF00CC;
+		/* left:20px; */
+		padding:15px;
+		margin-top:20px;
+		/* margin-bottom:0; */
+	
+		/* margin-left:20px; */
+	}	
 	
 }
 
