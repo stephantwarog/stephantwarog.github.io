@@ -11,8 +11,9 @@
             "bt3":"#graphic",
             "bt4":"#motion",
             "bt5":"#animation",
-            "bt6":"#web",
-            "bt7":"#game"
+            "bt6":"#game",
+            "bt7":"#web",
+            "bt8":"#app"
         },
         "menuLinks":{
             "bt1":"",
@@ -20,8 +21,9 @@
             "bt3":"graphic",
             "bt4":"motion",
             "bt5":"animation",
-            "bt6":"web",
-            "bt7":"game"
+            "bt6":"game",
+            "bt7":"web",
+            "bt8":"app"
         }    
     },
     "resumeContent": {
