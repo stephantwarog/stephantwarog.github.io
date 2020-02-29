@@ -1,37 +1,13 @@
-    {% include header.html %}
-	<div class="header">
-		<div class="titleContainer">
-			<div class="title">{{ site.data.datas.completeName }}</div>
-			<div class="line"></div>
-			<div class="homeContainer">
-				<div class="homeContact">{{ site.data.datas.email }}</div>
-				<div class="homeContact">{{ site.data.datas.phone }}</div>
-			</div>
-		</div>
-		<div class="burgerButton">
-			<div class="burgerIcon"></div>
-			<div class="burgerIcon"></div>
-			<div class="burgerIcon"></div>
-		</div>
-	</div>
-	<div class="navigationMenuContainer"><div class="navigationMenuBackground"></div><div class="navigationMenu">{% include menu.html %}</div></div>
+	<!-- {% assign lang = 'en' %} -->
+	{% include header.html %}
+	{% include menuBar.html %}
 	<div class="mainContent">
 		{% if page.ref == "index" %}
 		  {% include home.html %}
 		{% elsif page.ref == "latest" %}
 		  {% include latest.html %}
-		{% elsif page.ref == "graphic" %}
-		  {% include graphic.html %}
-		{% elsif page.ref == "motion" %}
-		  {% include motion.html %}
-		{% elsif page.ref == "animation" %}
-		  {% include animation.html %}
-		{% elsif page.ref == "game" %}
-		  {% include game.html %}
-		{% elsif page.ref == "web" %}
-		  {% include web.html %}
-		{% elsif page.ref == "app" %}
-		  {% include app.html %}
+		{% else %}
+		  {% include tag.html %}
 		{% endif %}
 	</div>
 {% include footer.html %}

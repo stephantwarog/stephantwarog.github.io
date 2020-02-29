@@ -50,16 +50,16 @@ function start(){
             console.log($(this));
             console.log("id : " + $(this).attr("id"));
             console.log("url : " + $(this).attr("url"));
+            document.location = $(this).attr("url");
             // if($(this).attr("id")!==""){
-            //     currentTag = $(this).attr("id");
-            //     $(".mainContent").load("portofolio.html", function() {
-            //         $(".portoFolioContent").html(currentTag);
-            //     });
+            //     //currentTag = $(this).attr("id");
+            //     document.location = $(this).attr("url");
+            //     // $(".mainContent").load("portofolio.html", function() {
+            //     //     $(".portoFolioContent").html(currentTag);
+            //     // });
             // }else{
             //     currentTag = "";
-            //     $(".mainContent").load("home.html", function() {
-            //         home();
-            //     });
+            //     document.location = $(this).attr("url");
             // }
         });
 

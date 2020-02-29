@@ -1,4 +1,14 @@
-permalink: /:tags/:title/
+lang: 
+  - fr
+  - en
+
+tags: 
+  - graphic
+  - animation
+  - motion
+  - game
+  - web
+  - app
 
 plugins:
   - jekyll-feed
