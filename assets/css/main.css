@@ -4,17 +4,18 @@ html {
 
 @font-face {
   font-family: 'Abel';
-  src: url('../bin/fonts/Abel-Regular.ttf') format('truetype');
+  src: url('../fonts/Abel-Regular.ttf') format('truetype');
 }
 
 body {
     background-color: #2bd4f6;
 	margin: 0;
 	padding: 0;
-	background-image: url("../bin/img/small/bg.jpg");
+	background-image: url("../img/small/bg.jpg");
 	background-repeat: repeat-y;
 	background-size:100%;
 }
+
 
 .header {
 	display:flex;
@@ -99,14 +100,19 @@ body {
 
 
 .mainContent{
-	position:relative;
-	margin-top:3%;
+	position: relative;
+	margin:auto;
+	/* margin-top:0; */
+	/* transform: perspective(1px) translateY(10%);  */
+	top:5vh;
+	/* margin-top:3%; */
+	/* margin-bottom:3%; */
 	/* margin-bottom:50px; */
 	width:100%;
 	/* height:100%; */
 	/* padding-top: 10px;
 	padding-bottom: 10px; */
-	background-image: url("../bin/img/bg_alpha.png");
+	background-image: url("../img/bg_alpha.png");
 	background-repeat: repeat-xy;
 	background-size:100% 100%;
 }
@@ -148,7 +154,7 @@ body {
 	background-color: #FF00CC;
 	top:20px;
 	right:20px;
-	background-image: url("../bin/img/iconClose.png");
+	background-image: url("../img/iconClose.png");
 	background-repeat: no-repeat;
 	background-position: top 10px right 10px;
 	padding-top: 45px;
@@ -194,27 +200,27 @@ body {
 }
 
 .icon1{
-	background-image: url("../bin/img/icon1.png");
+	background-image: url("../img/icon1.png");
 }
 
 .icon1on{
-	background-image: url("../bin/img/icon1on.png");
+	background-image: url("../img/icon1on.png");
 }
 
 
 .icon2{
-	background-image: url("../bin/img/icon2.png");
+	background-image: url("../img/icon2.png");
 }
 
 .icon2on{
-	background-image: url("../bin/img/icon2on.png");
+	background-image: url("../img/icon2on.png");
 }
 
 .icon3{
-	background-image: url("../bin/img/icon3.png");
+	background-image: url("../img/icon3.png");
 }
 .icon3on{
-	background-image: url("../bin/img/icon3on.png");
+	background-image: url("../img/icon3on.png");
 }
 
 /* 
@@ -232,8 +238,9 @@ body {
 }
 
 .CVresume{
+	display: relative;
 	font-family: 'Abel', sans-serif;
-	color: #111;	
+	color: #111;
 	font-size:15px;
 	font-style: normal;
 	/* background-color: #ccc; */
@@ -241,11 +248,33 @@ body {
 }
 
 
+.displayNone{
+	display:none;
+	position: absolute;
+}
 
+
+
+/***************************************/
+/*
+/*
+/*
+/*
 /* For devices 600px and smaller: */
+/*
+/*
+/*
+/*
+/***************************************/
+
+
+
+
+
+
 @media only screen and (max-width: 800px) {
 	body { 
-		background-image: url('../bin/img/small/bg.jpg'); 		
+		background-image: url('../img/small/bg.jpg'); 		
 	}
 
 	.homeContent{
@@ -281,6 +310,7 @@ body {
 		display:none;
 		position:relative;
 		text-align: right;
+		text-transform: capitalize;
 		/* white-space: nowrap; */
 		width:120px;
 		height:40px;
@@ -317,7 +347,7 @@ body {
 		margin-left:auto;
 		width:200px;
 		height:175px;
-		background-image: url("../bin/img/portrait_spritesheet.png");
+		background-image: url("../img/portrait_spritesheet.png");
 		background-repeat: no-repeat;
 		background-position: 0px 30px;
 		background-size: 1600px 140px;
@@ -331,7 +361,7 @@ body {
 	
 	.PortofolioButton{
 		/* display:block; */
-		position: relative;
+		/* position: relative; */
 		align-self: center;
 		bottom:0px;
 		font-family: 'Abel', sans-serif;
@@ -353,10 +383,27 @@ body {
 
 }
 
-/* For devices 600px and bigger: */
+
+
+
+/***************************************/
+/*
+/*
+/*
+/*
+/* For devices 800px and bigger: */
+/*
+/*
+/*
+/*
+/***************************************/
+
+
+
+
 @media only screen and (min-width: 800px) {
 	body { 
-		background-image: url('../bin/img/middle/bg.jpg');		
+		background-image: url('../img/middle/bg.jpg');		
 	}
 
 	.homeContent{
@@ -378,6 +425,7 @@ body {
 	.title{
 		position:relative;
 		text-align: right;
+		text-transform: uppercase;
 		white-space: nowrap;
 		width:240px;
 		height:40px;
@@ -394,7 +442,7 @@ body {
 		margin-left:auto;
 		width:400px;
 		height:350px;
-		background-image: url("../bin/img/portrait_spritesheet.png");
+		background-image: url("../img/portrait_spritesheet.png");
 		background-repeat: no-repeat;
 		background-position: 0px 30px;
 		background-size: 3200px 280px;
@@ -407,11 +455,15 @@ body {
 	}
 
 	.CVcontent{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
 		position:relative;
 		/* margin:auto; */
 		width:400px;
 		margin-left:20px;
 		/* padding-left:20px; */
+		/* background-color: #ffff00; */
 	}
 
 
@@ -437,6 +489,7 @@ body {
 		font-size:20px;
 		font-style: normal;
 		width:300px;
+		height:25px;
 		text-align:center;
 		text-transform:uppercase;
 		background-color:#FF00CC;
@@ -450,11 +503,13 @@ body {
 	
 }
 
+
+
 /* For devices 1440px and bigger: */
 
 @media only screen and (min-width: 1440px) {
 	body { 
-		background-image: url('../bin/img/big/bg.jpg'); 
+		background-image: url('../img/big/bg.jpg'); 
 	}
 
 }

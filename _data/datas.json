@@ -1,0 +1,25 @@
+{
+  "completeName": "stephan twarog",
+  "email": "stephan.twarog@gmail.com",
+  "phone": "0664849266",
+  "i8n":{
+    "en":{ 
+      "title": "stephan twarog freelance multi-skilled designer",
+      "CVtitle": "Freelance Designer",
+      "CVsubtitle": "GRAPHIC | MOTION | ANIMATION | GAME | WEB | APP",
+      "content1": "<div class=\"CVsub\">Quick Resume</div><div>Former Art Director / co-founder of MMOG Chapatiz.com<br/>Motion graphics, video and compositing<br/>Tactile application development<br/>Game design for mobile game<br/>Short film 2D animation</div>",
+      "content2": "<div class=\"CVsub\">Main Skills</div><div>Making cool moving stuffs on screens<br/>Adobe softwares for creation and design<br/>Photoshop, illustrator, Animate, After Effects, Premiere<br/>Web languages such as JS node.JS CSS HTML ActionScript<br/></div>",
+      "content3": "<div class=\"CVsub\">Aloha !</div>Good stories, fictions, tales and games<br/>Curious minds, discoveries, science<br/>Opensource, Fablabs and gardens<br/>Practicing Muay Thai, Tai Chi, Basketball<br/>Experimental Fusion Cooking Fever</div>",
+      "portofolioButton": "portofolio"
+    },
+    "fr":{
+      "title": "stephan twarog designer freelance polyvalent",
+      "CVsubtitle": "GRAPHIC | MOTION | ANIMATION | GAME | WEB | APP",
+      "CVtitle": "Designer Freelance",
+      "content1": "<div class=\"CVsub\">Résumé</div><div>Ancien directeur artistique / co-fondateur du MMOG Chapatiz.com<br/>Motion design, vidéo et compositing<br/>Dévelopment d'application tactile<br/>Game design de jeux sur mobile<br/>court-métrages d'animation 2D</div>",
+      "content2": "<div class=\"CVsub\">Prédilections pour :</div><div>Faire des trucs cools qui bougent (ou pas !)<br/>La suite Adobe CC : Photoshop, illustrator <br/>Animate, After Effects, Premiere, surtout.<br/>Le dev applicatif ou web avec JS node.JS, CSS<br/>HTML, mais pas que !<br/></div>",
+      "content3": "<div class=\"CVsub\">Aloha !</div>Les fictions, jeux et contes, bref, les bonnes histoires !<br/>Les esprits curieux, les découvertes, les sciences<br/>L'opensource, les Fablabs et les jardins<br/>Le Muay Thai, le Tai Chi et le Basketball<br/>Faire la cuisine - en mode freestyle fusion !</div>",
+      "portofolioButton": "portofolio"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{% for item in site.data.navigation %}
+    <div class="navigationMenuButton {% if page.ref == item.id %} currentMenu {% endif%}" id="{{item.id}}" url="{{item.link}}">
+        {{ item.name}}
+    </div>
+{% endfor %}
